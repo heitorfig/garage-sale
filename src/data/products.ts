@@ -114,10 +114,14 @@ export const products: Product[] = [
   {
     title: "Conjunto Tomada Tramontina Liz 20A",
     price: 500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652358836/garage-sale/conjunto-tomada_uategv.webp",
   },
   {
     title: "Placa Cega Tramontina Liz",
     price: 200,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652358613/garage-sale/placa-cega_ixczo3.webp",
   },
   {
     title: "Trava pra Gaveta Ordene",
@@ -128,23 +132,25 @@ export const products: Product[] = [
     price: 5000,
   },
   {
-    title: '815 Cards de Magic',
+    title: "815 Cards de Magic",
     price: 8000,
   },
   {
-    title: 'Livro Guerra Civil Marvel',
+    title: "Livro Guerra Civil Marvel",
     price: 1000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652358969/garage-sale/guerra-civil_hhpt0a.webp",
   },
   {
-    title: 'Pegador de Sorvete de Plástico',
+    title: "Pegador de Sorvete de Plástico",
     price: 200,
   },
   {
-    title: 'Carregador USB 1.5A',
+    title: "Carregador USB 1.5A",
     price: 1000,
   },
   {
-    title: 'Inalador Ultrassonico Omron',
+    title: "Inalador Ultrassonico Omron",
     price: 15000,
   },
   { title: "Sofá Cama Retrátil", price: 150000, sold: "Sonia" },
