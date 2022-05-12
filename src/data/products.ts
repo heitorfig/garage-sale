@@ -107,9 +107,41 @@ export const products: Product[] = [
     title: "Roteador TP-Link AC1900",
     price: 70000,
   },
-  { title: "Sofá Cama Retrátil", price: 150000, sold: 'Sonia' },
-  { title: "Kit Varal de Chão", price: 8000, sold: 'Vera' },
-  { title: "Bebedouro com Compressor Electrolux", price: 35000, sold: 'Vera' },
-  { title: "Cortinha Persiana Blackout", price: 8000, sold: 'Vera' },
-  { title: "Fogão de Indução Fischer - 4 Bocas", price: 150000, sold: 'Andrea' },
+  {
+    title: "Espelho de Mesa Dupla Face",
+    price: 2000,
+  },
+  {
+    title: "Conjunto Tomada Tramontina Liz 20A",
+    price: 500,
+  },
+  {
+    title: "Placa Cega Tramontina Liz",
+    price: 200,
+  },
+  {
+    title: "Trava pra Gaveta Ordene",
+    price: 1200,
+  },
+  {
+    title: "Base para Notebook, C3Tech",
+    price: 5000,
+  },
+  {
+    title: '815 Cards de Magic',
+    price: 8000,
+  },
+  {
+    title: 'Livro Guerra Civil Marvel',
+    price: 1000,
+  },
+  { title: "Sofá Cama Retrátil", price: 150000, sold: "Sonia" },
+  { title: "Kit Varal de Chão", price: 8000, sold: "Vera" },
+  { title: "Bebedouro com Compressor Electrolux", price: 35000, sold: "Vera" },
+  { title: "Cortinha Persiana Blackout", price: 8000, sold: "Vera" },
+  {
+    title: "Fogão de Indução Fischer - 4 Bocas",
+    price: 150000,
+    sold: "Andrea",
+  },
 ];
