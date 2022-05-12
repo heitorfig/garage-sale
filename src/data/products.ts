@@ -135,6 +135,18 @@ export const products: Product[] = [
     title: 'Livro Guerra Civil Marvel',
     price: 1000,
   },
+  {
+    title: 'Pegador de Sorvete de Plástico',
+    price: 200,
+  },
+  {
+    title: 'Carregador USB 1.5A',
+    price: 1000,
+  },
+  {
+    title: 'Inalador Ultrassonico Omron',
+    price: 15000,
+  },
   { title: "Sofá Cama Retrátil", price: 150000, sold: "Sonia" },
   { title: "Kit Varal de Chão", price: 8000, sold: "Vera" },
   { title: "Bebedouro com Compressor Electrolux", price: 35000, sold: "Vera" },
