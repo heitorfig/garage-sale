@@ -58,6 +58,8 @@ export const products: Product[] = [
   {
     title: "Jogo de Facas Tramontina Plenus",
     price: 6000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652359290/garage-sale/jogo-facas_fpjam4.webp",
   },
   {
     title: "Jogo de Panelas e Frigideira Inox Record",
