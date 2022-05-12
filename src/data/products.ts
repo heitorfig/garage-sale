@@ -30,6 +30,8 @@ export const products: Product[] = [
   {
     title: "Mesa de Jantar Bennet com 6 cadeiras",
     price: 250000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365143/garage-sale/mesa_y5jkj6.webp",
   },
   {
     title: "Escorredor de Pratos em Inox",
@@ -100,6 +102,8 @@ export const products: Product[] = [
   {
     title: "Torradeira Oster Gourmet",
     price: 12000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365938/garage-sale/torradeira_t6j0qc.webp",
   },
   {
     title: "Piscina Intex 4485 litros com filtro e acessórios",
@@ -108,10 +112,14 @@ export const products: Product[] = [
   {
     title: "Roteador TP-Link AC1900",
     price: 70000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365831/garage-sale/roteador_ykflfl.webp",
   },
   {
     title: "Espelho de Mesa Dupla Face",
     price: 2000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365690/garage-sale/espelho_fyyq45.webp",
   },
   {
     title: "Conjunto Tomada Tramontina Liz 20A",
@@ -128,10 +136,14 @@ export const products: Product[] = [
   {
     title: "Trava pra Gaveta Ordene",
     price: 1200,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365582/garage-sale/protetor_coovws.webp",
   },
   {
-    title: "Base para Notebook, C3Tech",
+    title: "Base para Notebook C3Tech",
     price: 5000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365493/garage-sale/cooler_ipwwve.webp",
   },
   {
     title: "815 Cards de Magic",
@@ -146,14 +158,20 @@ export const products: Product[] = [
   {
     title: "Pegador de Sorvete de Plástico",
     price: 200,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365256/garage-sale/colher-sorvete_u3jluz.webp",
   },
   {
     title: "Carregador USB 1.5A",
     price: 1000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365345/garage-sale/carregador_wcgsyt.webp",
   },
   {
     title: "Inalador Ultrassonico Omron",
     price: 15000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365421/garage-sale/inalador_w0ipbd.webp",
   },
   { title: "Sofá Cama Retrátil", price: 150000, sold: "Sonia" },
   { title: "Kit Varal de Chão", price: 8000, sold: "Vera" },
