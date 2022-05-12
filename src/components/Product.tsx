@@ -5,14 +5,14 @@ import { Button } from './Button';
 export interface ProductProps {
   title: string;
   price: number;
-  photo: string;
+  photo?: string;
 }
 
 const ProductStyled = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   background-color: rgb(255, 255, 255, 0.95);
   border-radius: 5px;
   padding: 17px;
@@ -20,7 +20,7 @@ const ProductStyled = styled.div`
 
   h2 {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     color: #444;
     text-transform: uppercase;
@@ -28,15 +28,16 @@ const ProductStyled = styled.div`
 
   h3 {
     margin: 0;
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: bold;
     color: #0099ff;
     margin-bottom: 10px;
+    /* align-self: flex-end; */
   }
 
-  p {
-    font-size: 1em;
-    margin-bottom: 10px;
+  button {
+    margin-top: auto;
+    align-self: center;
   }
 `;
 
@@ -61,10 +62,10 @@ export const Product = (props: ProductProps) => {
   return (
     <ProductStyled>
       <ImageWrapper>
-        <img src={props.photo} alt={props.title} />
+        <img src={props.photo || 'https://picsum.photos/640/480?image=1'} alt={props.title} />
       </ImageWrapper>
       <h2>{props.title}</h2>
-      <h3>R$ {(props.price / 100).toLocaleString()}</h3>
+      <h3><small>R$</small> {(props.price / 100).toLocaleString()}</h3>
       <Button onClick={buy}>Tenho Interesse</Button>
     </ProductStyled>
   )
