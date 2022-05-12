@@ -30,7 +30,7 @@ const PageHeader = styled.header`
 
 const PageWrapper = styled.div`
   width: 100%;
-  background: url('/assets/img/bg.svg') no-repeat;
+  background: url('./assets/img/bg.svg') no-repeat;
   background-position: center -10px;
   background-size: 110% auto;
 `;
