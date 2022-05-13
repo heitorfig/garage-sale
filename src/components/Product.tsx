@@ -62,7 +62,7 @@ export const Product = (props: ProductProps) => {
   return (
     <ProductStyled>
       <ImageWrapper>
-        <img src={props.photo || 'https://picsum.photos/640/640?image=1'} alt={props.title} />
+        <img src={props.photo || `https://via.placeholder.com/640x640/0099ff/fff.jpg?text=${props.title}`} alt={props.title} />
       </ImageWrapper>
       <h2>{props.title}</h2>
       <h3><small>R$</small> {(props.price / 100).toLocaleString()}</h3>
