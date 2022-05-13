@@ -37,7 +37,7 @@ export const products: Product[] = [
   },
   {
     title: "Mesa de Jantar Bennet com 6 cadeiras",
-    price: 250000,
+    price: 180000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365143/garage-sale/mesa_y5jkj6.webp",
   },
