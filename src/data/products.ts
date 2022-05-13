@@ -10,10 +10,14 @@ export const products: Product[] = [
   {
     title: "32 Cabides de Plástico",
     price: 1600,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652398128/garage-sale/cabide_gsts8a.webp",
   },
   {
     title: "Fruteira de Mesa de Inox",
     price: 1200,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652398327/garage-sale/fruteira_fmabo0.webp",
   },
   {
     title: "Modelador de Cachos Oster",
@@ -22,10 +26,14 @@ export const products: Product[] = [
   {
     title: "Camera 360 Positivo Smart",
     price: 15000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652398499/garage-sale/camera-360_qpihtl.webp",
   },
   {
     title: "Chapéu de Praia",
     price: 2000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399091/garage-sale/chapeu_zzkt4f.webp",
   },
   {
     title: "Mesa de Jantar Bennet com 6 cadeiras",
@@ -40,10 +48,14 @@ export const products: Product[] = [
   {
     title: "Fruteira branca com 4 gavetas",
     price: 10000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652400224/garage-sale/fruteira-1_tmzij1.webp",
   },
   {
     title: "Garrafa Térmica Bkind 1L",
     price: 7500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399213/garage-sale/garrafa-bkind_mv5cdv.webp",
   },
   {
     title: "Garrafa Térmica Branca 500ml",
@@ -52,10 +64,14 @@ export const products: Product[] = [
   {
     title: "Impressora HP Deskjet Ink Advantage 2676",
     price: 18000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399351/garage-sale/impressora_dx03lg.webp",
   },
   {
     title: "Cobertor de Microfibra Camesa",
     price: 3500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399440/garage-sale/cobertor_axkzyy.webp",
   },
   {
     title: "Jogo de Facas Tramontina Plenus",
@@ -66,6 +82,8 @@ export const products: Product[] = [
   {
     title: "Jogo de Panelas e Frigideira Inox Record",
     price: 60000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399629/garage-sale/jogo-panelas_w8pchz.webp",
   },
   {
     title: "Mesa de Centro",
@@ -74,18 +92,26 @@ export const products: Product[] = [
   {
     title: "Porteiro Inteligente Positivo",
     price: 30000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399709/garage-sale/porteiro_lcwwo5.webp",
   },
   {
     title: "Xiaomi Desk Lamp 1",
     price: 20000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399767/garage-sale/xiaomi-lamp_usje9p.webp",
   },
   {
     title: "Sensor de Porta AGL",
     price: 6000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399820/garage-sale/sensor-agl_mqqscf.webp",
   },
   {
     title: "Sensor de Presença AGL",
     price: 4000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399881/garage-sale/sensor-agl-2_nlqeqy.webp",
   },
   {
     title: "Tábua de Passar Roupa",
@@ -94,10 +120,14 @@ export const products: Product[] = [
   {
     title: "Tapete de Atividades Infantil",
     price: 18000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399951/garage-sale/tapete_bt83nf.webp",
   },
   {
     title: "Telefone Sem Fio Motorola",
     price: 5000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652400012/garage-sale/telefone_kgmt5z.webp",
   },
   {
     title: "Torradeira Oster Gourmet",
@@ -108,6 +138,8 @@ export const products: Product[] = [
   {
     title: "Piscina Intex 4485 litros com filtro e acessórios",
     price: 75000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652400062/garage-sale/piscina_ccpmnn.webp",
   },
   {
     title: "Roteador TP-Link AC1900",
@@ -148,6 +180,8 @@ export const products: Product[] = [
   {
     title: "815 Cards de Magic",
     price: 8000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652400136/garage-sale/cards_rhtl2y.webp",
   },
   {
     title: "Livro Guerra Civil Marvel",
