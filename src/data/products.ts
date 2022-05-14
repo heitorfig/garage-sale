@@ -152,6 +152,7 @@ export const products: Product[] = [
     price: 2000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365690/garage-sale/espelho_fyyq45.webp",
+    sold: 'Miau'
   },
   {
     title: "Conjunto Tomada Tramontina Liz 20A",
@@ -176,6 +177,7 @@ export const products: Product[] = [
     price: 5000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365493/garage-sale/cooler_ipwwve.webp",
+    sold: 'Miau'
   },
   {
     title: "815 Cards de Magic",
