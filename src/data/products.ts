@@ -66,7 +66,7 @@ export const products: Product[] = [
     price: 18000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399351/garage-sale/impressora_dx03lg.webp",
-    sold: 'Sonia'
+    sold: "Sonia",
   },
   {
     title: "Cobertor de Microfibra Camesa",
@@ -79,14 +79,14 @@ export const products: Product[] = [
     price: 6000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652359290/garage-sale/jogo-facas_fpjam4.webp",
-    sold: 'Rosemari'
+    sold: "Rosemari",
   },
   {
     title: "Jogo de Panelas e Frigideira Inox Record",
     price: 60000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399629/garage-sale/jogo-panelas_w8pchz.webp",
-    sold: 'Andrea'
+    sold: "Andrea",
   },
   {
     title: "Mesa de Centro",
@@ -119,7 +119,7 @@ export const products: Product[] = [
   {
     title: "Tábua de Passar Roupa",
     price: 2000,
-    sold: 'Sonia'
+    sold: "Sonia",
   },
   {
     title: "Tapete de Atividades Infantil",
@@ -150,7 +150,7 @@ export const products: Product[] = [
     price: 2000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365690/garage-sale/espelho_fyyq45.webp",
-    sold: 'Miau'
+    sold: "Miau",
   },
   {
     title: "Conjunto Tomada Tramontina Liz 20A",
@@ -175,7 +175,7 @@ export const products: Product[] = [
     price: 5000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365493/garage-sale/cooler_ipwwve.webp",
-    sold: 'Miau'
+    sold: "Miau",
   },
   {
     title: "815 Cards de Magic",
@@ -194,14 +194,14 @@ export const products: Product[] = [
     price: 200,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365256/garage-sale/colher-sorvete_u3jluz.webp",
-    sold: 'Andrea'
+    sold: "Andrea",
   },
   {
     title: "Carregador USB 1.5A",
     price: 1000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652365345/garage-sale/carregador_wcgsyt.webp",
-    sold: 'Andrea'
+    sold: "Andrea",
   },
   {
     title: "Inalador Ultrassonico Omron",
