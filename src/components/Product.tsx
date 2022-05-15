@@ -66,7 +66,7 @@ export const Product = (props: ProductProps) => {
       </ImageWrapper>
       <h2>{props.title}</h2>
       <h3><small>R$</small> {(props.price / 100).toLocaleString()}</h3>
-      <Button onClick={buy} className="buy-button">Tenho Interesse</Button>
+      <Button onClick={buy} className="buy-button" id={props.title.replaceAll(' ', '-').toLowerCase()}>Tenho Interesse</Button>
     </ProductStyled>
   )
 }
