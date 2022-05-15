@@ -4,14 +4,16 @@ interface Product {
   price: number;
   sold?: boolean | string;
   photo?: string;
+  stock?: number;
 }
 
 export const products: Product[] = [
   {
-    title: "32 Cabides de Plástico",
-    price: 1600,
+    title: "Cabides de Plástico",
+    price: 50,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652398128/garage-sale/cabide_gsts8a.webp",
+    stock: 32,
   },
   {
     title: "Fruteira de Mesa de Inox",
@@ -73,6 +75,7 @@ export const products: Product[] = [
     price: 3500,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399440/garage-sale/cobertor_axkzyy.webp",
+    stock: 2,
   },
   {
     title: "Jogo de Facas Tramontina Plenus",
@@ -109,6 +112,14 @@ export const products: Product[] = [
     price: 6000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652399820/garage-sale/sensor-agl_mqqscf.webp",
+    stock: 5,
+  },
+  {
+    title: "Lâmpada RGB LED Smart Positivo",
+    price: 3000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652642694/garage-sale/lampada_zfxikb.jpg",
+    stock: 6
   },
   {
     title: "Sensor de Presença AGL",
@@ -141,7 +152,7 @@ export const products: Product[] = [
   },
   {
     title: "Piscina Intex 4485 litros com filtro e acessórios",
-    price: 75000,
+    price: 50000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652400062/garage-sale/piscina_ccpmnn.webp",
   },
@@ -157,12 +168,14 @@ export const products: Product[] = [
     price: 500,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652358836/garage-sale/conjunto-tomada_uategv.webp",
+    stock: 4,
   },
   {
     title: "Placa Cega Tramontina Liz",
     price: 200,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652358613/garage-sale/placa-cega_ixczo3.webp",
+    stock: 5,
   },
   {
     title: "Trava pra Gaveta Ordene",

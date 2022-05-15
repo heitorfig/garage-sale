@@ -6,6 +6,7 @@ export interface ProductProps {
   title: string;
   price: number;
   photo?: string;
+  stock?: number;
 }
 
 const ProductStyled = styled.div`
@@ -31,8 +32,17 @@ const ProductStyled = styled.div`
     font-size: 1.8em;
     font-weight: bold;
     color: #0099ff;
-    margin-bottom: 10px;
     /* align-self: flex-end; */
+  }
+
+  span {
+    position: relative;
+    top: -1.8em;
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    align-self: flex-end;
   }
 
   button {
@@ -56,7 +66,7 @@ const ImageWrapper = styled.div`
 
 export const Product = (props: ProductProps) => {
   const buy = () => {
-    window.open(`https://api.whatsapp.com/send?phone=5514991784809&text=Olá,%20gostaria%20de%20comprar%20o%20produto%20${props.title}%20por%20R$ ${(props.price / 100).toLocaleString()}`);
+    window.open(`https://api.whatsapp.com/send?phone=5514991784809&text=Olá,%20gostaria%20de%20comprar%20o%20produto%20${props.title}%20por%20R$ ${(props.price / 100).toLocaleString(undefined, {minimumFractionDigits: 2})}`);
   }
 
   return (
@@ -65,7 +75,8 @@ export const Product = (props: ProductProps) => {
         <img src={props.photo || `https://via.placeholder.com/640x640/0099ff/fff.jpg?text=${props.title}`} alt={props.title} />
       </ImageWrapper>
       <h2>{props.title}</h2>
-      <h3><small>R$</small> {(props.price / 100).toLocaleString()}</h3>
+      <h3><small>R$</small> {(props.price / 100).toLocaleString(undefined, {minimumFractionDigits: 2})}</h3>
+      <span>Estoque: {props.stock || 1}</span>
       <Button onClick={buy} className="buy-button" id={props.title.replaceAll(' ', '-').toLowerCase()}>Tenho Interesse</Button>
     </ProductStyled>
   )
