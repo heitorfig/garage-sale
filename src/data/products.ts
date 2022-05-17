@@ -119,7 +119,7 @@ export const products: Product[] = [
     price: 3000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652642694/garage-sale/lampada_zfxikb.jpg",
-    stock: 6
+    stock: 6,
   },
   {
     title: "Sensor de Presença AGL",
@@ -230,5 +230,33 @@ export const products: Product[] = [
     title: "Fogão de Indução Fischer - 4 Bocas",
     price: 150000,
     sold: "Andrea",
+  },
+  {
+    title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 250ml",
+    price: 1500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652751568/garage-sale/pote-250_hudxnr.jpg",
+    stock: 7,
+  },
+  {
+    title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 500ml",
+    price: 2000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652751568/garage-sale/pote-500_orgqxt.jpg",
+    stock: 2,
+  },
+  {
+    title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 800ml",
+    price: 2500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652751568/garage-sale/pote-800_vkyloa.jpg",
+    stock: 1,
+  },
+  {
+    title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 1100ml",
+    price: 2500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_scale,w_640/v1652751568/garage-sale/pote-1100_leupzm.jpg",
+    stock: 3,
   },
 ];
