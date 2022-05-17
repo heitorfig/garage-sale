@@ -259,4 +259,11 @@ export const products: Product[] = [
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652751568/garage-sale/pote-1100_leupzm.jpg",
     stock: 3,
   },
+  {
+    title: "SONOFF Módulo Relé Wi-Fi",
+    price: 2000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652758788/garage-sale/sonoff_kl5p8f.webp",
+    stock: 2,
+  },
 ];
