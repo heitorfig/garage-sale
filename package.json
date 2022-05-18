@@ -1,6 +1,6 @@
 {
   "name": "garage-sale",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://heitorfig.github.io/garage-sale",
   "private": true,
   "dependencies": {
