@@ -2,7 +2,7 @@ interface Product {
   id?: number;
   title: string;
   price: number;
-  sold?: boolean | string;
+  sold?: boolean | string[];
   photo?: string;
   stock?: number;
 }
@@ -13,7 +13,8 @@ export const products: Product[] = [
     price: 50,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652398128/garage-sale/cabide_gsts8a.webp",
-    stock: 32,
+    stock: 0,
+    sold: ["Roberta"]
   },
   {
     title: "Fruteira de Mesa de Inox",
@@ -68,28 +69,29 @@ export const products: Product[] = [
     price: 18000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652399351/garage-sale/impressora_dx03lg.webp",
-    sold: "Sonia",
+    sold: ["Sonia"],
   },
   {
     title: "Cobertor de Microfibra Camesa",
     price: 3500,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652399440/garage-sale/cobertor_axkzyy.webp",
-    stock: 2,
+    stock: 0,
+    sold: ['Vizinha', 'Amiga Roberta']
   },
   {
     title: "Jogo de Facas Tramontina Plenus",
     price: 6000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652359290/garage-sale/jogo-facas_fpjam4.webp",
-    sold: "Rosemari",
+    sold: ["Rosemari"],
   },
   {
     title: "Jogo de Panelas e Frigideira Inox Record",
     price: 60000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652399629/garage-sale/jogo-panelas_w8pchz.webp",
-    sold: "Andrea",
+    sold: ["Andrea"],
   },
   {
     title: "Mesa de Centro",
@@ -130,7 +132,7 @@ export const products: Product[] = [
   {
     title: "Tábua de Passar Roupa",
     price: 2000,
-    sold: "Sonia",
+    sold: ["Sonia"],
   },
   {
     title: "Tapete de Atividades Infantil",
@@ -161,7 +163,7 @@ export const products: Product[] = [
     price: 2000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365690/garage-sale/espelho_fyyq45.webp",
-    sold: "Miau",
+    sold: ["Miau"],
   },
   {
     title: "Conjunto Tomada Tramontina Liz 20A",
@@ -188,7 +190,7 @@ export const products: Product[] = [
     price: 5000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365493/garage-sale/cooler_ipwwve.webp",
-    sold: "Miau",
+    sold: ["Miau"],
   },
   {
     title: "815 Cards de Magic",
@@ -207,14 +209,14 @@ export const products: Product[] = [
     price: 200,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365256/garage-sale/colher-sorvete_u3jluz.webp",
-    sold: "Andrea",
+    sold: ["Andrea"],
   },
   {
     title: "Carregador USB 1.5A",
     price: 1000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365345/garage-sale/carregador_wcgsyt.webp",
-    sold: "Andrea",
+    sold: ["Andrea"],
   },
   {
     title: "Inalador Ultrassonico Omron",
@@ -222,14 +224,14 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365421/garage-sale/inalador_w0ipbd.webp",
   },
-  { title: "Sofá Cama Retrátil", price: 150000, sold: "Sonia" },
-  { title: "Kit Varal de Chão", price: 8000, sold: "Vera" },
-  { title: "Bebedouro com Compressor Electrolux", price: 35000, sold: "Vera" },
-  { title: "Cortinha Persiana Blackout", price: 8000, sold: "Vera" },
+  { title: "Sofá Cama Retrátil", price: 150000, sold: ["Sonia"] },
+  { title: "Kit Varal de Chão", price: 8000, sold: ["Vera"] },
+  { title: "Bebedouro com Compressor Electrolux", price: 35000, sold: ["Vera"] },
+  { title: "Cortinha Persiana Blackout", price: 8000, sold: ["Vera"] },
   {
     title: "Fogão de Indução Fischer - 4 Bocas",
     price: 150000,
-    sold: "Andrea",
+    sold: ["Andrea"],
   },
   {
     title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 250ml",
@@ -257,7 +259,8 @@ export const products: Product[] = [
     price: 2500,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652751568/garage-sale/pote-1100_leupzm.jpg",
-    stock: 3,
+    stock: 2,
+    sold: ['Roberta']
   },
   {
     title: "SONOFF Módulo Relé Wi-Fi",
