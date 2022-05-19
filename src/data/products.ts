@@ -14,7 +14,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652398128/garage-sale/cabide_gsts8a.webp",
     stock: 0,
-    sold: ["Roberta"]
+    sold: ["Roberta"],
   },
   {
     title: "Fruteira de Mesa de Inox",
@@ -77,7 +77,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652399440/garage-sale/cobertor_axkzyy.webp",
     stock: 0,
-    sold: ['Vizinha', 'Amiga Roberta']
+    sold: ["Vizinha", "Amiga Roberta"],
   },
   {
     title: "Jogo de Facas Tramontina Plenus",
@@ -226,7 +226,11 @@ export const products: Product[] = [
   },
   { title: "Sofá Cama Retrátil", price: 150000, sold: ["Sonia"] },
   { title: "Kit Varal de Chão", price: 8000, sold: ["Vera"] },
-  { title: "Bebedouro com Compressor Electrolux", price: 35000, sold: ["Vera"] },
+  {
+    title: "Bebedouro com Compressor Electrolux",
+    price: 35000,
+    sold: ["Vera"],
+  },
   { title: "Cortinha Persiana Blackout", price: 8000, sold: ["Vera"] },
   {
     title: "Fogão de Indução Fischer - 4 Bocas",
@@ -260,7 +264,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652751568/garage-sale/pote-1100_leupzm.jpg",
     stock: 2,
-    sold: ['Roberta']
+    sold: ["Roberta"],
   },
   {
     title: "SONOFF Módulo Relé Wi-Fi",
@@ -268,5 +272,40 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652758788/garage-sale/sonoff_kl5p8f.webp",
     stock: 2,
+  },
+  {
+    title: "Frigideira Elétrica Oster",
+    price: 15000,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652922991/garage-sale/sarten_pvyfxw.webp",
+    stock: 1,
+  },
+  {
+    title: "Jogo Americano Le Lis Casa Cadiz - Bege Médio",
+    price: 700,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923116/garage-sale/jogo-americano_rbqelj.jpg",
+    stock: 6,
+  },
+  {
+    title: "Jogo de Tigelas de Sobremesa Nadir - 6 unidades",
+    price: 2500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923274/garage-sale/jogo-tigela_scf6ww.webp",
+    stock: 2,
+  },
+  {
+    title: "Assadeira Oval Marinex Opaline",
+    price: 1200,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923448/garage-sale/assadeira_emibqz.jpg",
+    stock: 1,
+  },
+  {
+    title: "Assadeira de Pizza Tramontina",
+    price: 2500,
+    photo:
+      "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923576/garage-sale/assadeira_rkkvgu.webp",
+    stock: 1,
   },
 ];
