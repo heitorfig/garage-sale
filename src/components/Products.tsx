@@ -32,7 +32,7 @@ export const Products = () => {
     const filteredProducts = products.filter(product => {
       return product.title.toLowerCase().includes(search.toLowerCase());
     }).sort((a, b) => {
-      return a.price - b.price
+      return b.price - a.price
     }).filter(product => !product.sold);
     setProductsList(filteredProducts);
   }
