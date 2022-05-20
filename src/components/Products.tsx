@@ -33,7 +33,7 @@ export const Products = () => {
       return product.title.toLowerCase().includes(search.toLowerCase());
     }).sort((a, b) => {
       return b.price - a.price
-    }).filter(product => !product.sold);
+    }).filter(product => product.stock > 0);
     setProductsList(filteredProducts);
   }
 
