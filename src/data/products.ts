@@ -21,7 +21,8 @@ export const products: Product[] = [
     price: 1200,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652398327/garage-sale/fruteira_fmabo0.webp",
-    stock: 1,
+    stock: 0,
+    sold: ["AE Estofados"],
   },
   {
     title: "Modelador de Cachos Oster",
@@ -186,7 +187,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365690/garage-sale/espelho_fyyq45.webp",
     sold: ["Miau"],
-    stock: 1,
+    stock: 0,
   },
   {
     title: "Conjunto Tomada Tramontina Liz 20A",
@@ -281,7 +282,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652751568/garage-sale/pote-250_hudxnr.jpg",
     stock: 0,
-    sold: ["Andrea"]
+    sold: ["Andrea"],
   },
   {
     title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 500ml",
@@ -289,7 +290,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652751568/garage-sale/pote-500_orgqxt.jpg",
     stock: 0,
-    sold: ["Andrea"]
+    sold: ["Andrea"],
   },
   {
     title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 800ml",
@@ -297,7 +298,7 @@ export const products: Product[] = [
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652751568/garage-sale/pote-800_vkyloa.jpg",
     stock: 0,
-    sold: ["Andrea"]
+    sold: ["Andrea"],
   },
   {
     title: "Pote Hermético de Vidro com Tampa de Bambu Oikos - 1100ml",
@@ -340,13 +341,15 @@ export const products: Product[] = [
     price: 1200,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923448/garage-sale/assadeira_emibqz.jpg",
-    stock: 1,
+    stock: 0,
+    sold: ["Rose"],
   },
   {
     title: "Assadeira de Pizza Tramontina",
     price: 2500,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923576/garage-sale/assadeira_rkkvgu.webp",
-    stock: 1,
+    stock: 0,
+    sold: ["Mãe"],
   },
 ];
