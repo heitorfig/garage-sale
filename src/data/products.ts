@@ -320,7 +320,8 @@ export const products: Product[] = [
     price: 15000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652922991/garage-sale/sarten_pvyfxw.webp",
-    stock: 1,
+    stock: 0,
+    sold: ["Rose"]
   },
   {
     title: "Jogo Americano Le Lis Casa Cadiz - Bege Médio",
