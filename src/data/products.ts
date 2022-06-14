@@ -48,19 +48,22 @@ export const products: Product[] = [
     price: 180000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365143/garage-sale/mesa_y5jkj6.webp",
-    stock: 1,
+    stock: 0,
+    sold: ["Flávia"]
   },
   {
     title: "Escorredor de Pratos em Inox",
     price: 3500,
-    stock: 1,
+    stock: 0,
+    sold: ["Mari"]
   },
   {
     title: "Fruteira branca com 4 gavetas",
     price: 10000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652400224/garage-sale/fruteira-1_tmzij1.webp",
-    stock: 1,
+    stock: 0,
+    sold: ["AE Estofados"]
   },
   {
     title: "Garrafa Térmica Bkind 1L",
@@ -171,7 +174,8 @@ export const products: Product[] = [
     price: 12000,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652365938/garage-sale/torradeira_t6j0qc.webp",
-    stock: 1,
+    stock: 0,
+    sold: ["Mari"],
   },
   {
     title: "Piscina Intex 4485 litros com filtro e acessórios",
@@ -328,14 +332,16 @@ export const products: Product[] = [
     price: 700,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923116/garage-sale/jogo-americano_rbqelj.jpg",
-    stock: 6,
+    stock: 0,
+    sold: ["Mari"]
   },
   {
     title: "Jogo de Tigelas de Sobremesa Nadir - 6 unidades",
     price: 2500,
     photo:
       "https://res.cloudinary.com/heitorfigbr/image/upload/c_lpad,h_640,w_640/v1652923274/garage-sale/jogo-tigela_scf6ww.webp",
-    stock: 2,
+    stock: 0,
+    sold: ["Andrea"]
   },
   {
     title: "Assadeira Oval Marinex Opaline",
